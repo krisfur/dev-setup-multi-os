@@ -19,7 +19,9 @@ killall Finder
 
 ## Software
 
-### [Firefox](https://www.firefox.com/en-GB/) -> Or other browser you use to keep accounts in sync between devices
+### Firefox
+
+[Download here](https://www.firefox.com/en-GB/) -> or pick another browser you use to keep accounts in sync between devices
 
 ### Kitty terminal
 
