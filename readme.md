@@ -1,6 +1,13 @@
 # Multi OS development setup guide
 
-Little bit of personal documentation built with `mdbook`.
+Little bit of personal documentation built with [mdbook](https://rust-lang.github.io/mdBook/index.html).
+
+## Operating Systems/Distros covered
+
+- [Arch and CachyOS](src/linux-arch.md)
+- [Fedora and Nobara](src/linux-fedora.md)
+- [MacOS](src/macos.md)
+- [Windows 11](src/windows.md)
 
 ## Setup of an `mdbook`
 
