@@ -8,7 +8,7 @@ In order that makes it least annoying:
 - [Nvidia App](https://www.nvidia.com/en-gb/software/nvidia-app/)
 - [Rustup](https://www.rust-lang.org/tools/install) -> Also includes `Visual Studio build tools` which will be useful for other compiled languages!
 - [Git](https://git-scm.com/downloads/win)
-- [GitHub CLI](https://cli.github.com/)
+- [GitHub CLI](https://cli.github.com/) -> then run `gh auth login`
 - [Visual Studio Code](https://code.visualstudio.com/download) -> After `GitHub CLI` for syncing extensions!
 - [Golang](https://go.dev/doc/install)
 - [CMake](https://cmake.org/download/)
