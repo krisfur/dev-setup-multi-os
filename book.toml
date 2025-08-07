@@ -1,0 +1,5 @@
+[book]
+authors = ["Krzysztof Furman"]
+language = "en"
+src = "src"
+title = "Multi OS development setup guide"
