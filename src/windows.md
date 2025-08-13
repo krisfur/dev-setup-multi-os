@@ -40,6 +40,8 @@ powercfg /setdcvalueindex SCHEME_CURRENT SUB_PCIEXPRESS ASPM 0
 
 and reboot.
 
+> ⚠️ This solves it for most cases, BUT the problem does return if using discord. It is fine in browser. Some users had it work if hardware acceleration in discord is off, but that did not work for me.
+
 ### What the Command Does:
 - `/setdcvalueindex`: Modifies a specific power setting while the laptop is on Direct Current (i.e., battery power).
 - `SCHEME_CURRENT`: Targets the currently active power plan (e.g., "Best Performance").
