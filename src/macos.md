@@ -17,13 +17,11 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 killall Finder
 ```
 
-## Software
-
-### Firefox
+## Firefox
 
 [Download here](https://www.firefox.com/en-GB/) -> or pick another browser you use to keep accounts in sync between devices
 
-### Kitty terminal
+## Kitty terminal
 
 ```bash
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
@@ -31,7 +29,7 @@ curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 
 Then get the theme from [here](https://github.com/catppuccin/kitty/blob/main/themes/mocha.conf) and paste it at the end of the config file (`cmd+,`)
 
-### Homebrew
+## Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -40,30 +38,30 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-### Github CLI
+## Github CLI
 
 ```bash
 brew install gh
 gh auth login
 ```
 
-### VS Code
+## VS Code
 
 Download from [here](https://code.visualstudio.com/download) and use Github account for syncing.
 
-### Rust
+## Rust
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-### C++
+## C++
 
 ```bash
 brew install gcc cmake pkg-config sdl2 raylib
 ```
 
-### Go
+## Go
 
 ```bash
 brew install go
@@ -72,13 +70,13 @@ vim ~/.zshenv
 export PATH="$HOME/go/bin:$PATH"
 ```
 
-### NPM
+## NPM
 
 ```bash
 brew install npm
 ```
 
-### Python
+## Python
 
 ```bash
 brew install python3
@@ -87,7 +85,7 @@ python3 -m venv ~/pyenv
 #activate with: source ~/pyenv/bin/activate
 ```
 
-### Docker
+## Docker
 
 ```bash
 brew install docker colima qemu lima lima-additional-guestagents
@@ -95,14 +93,14 @@ brew install docker colima qemu lima lima-additional-guestagents
 #docker run --rm -it ubuntu:24.04 bash
 ```
 
-### Fastfetch
+## Fastfetch
 
 ```bash
 # install fastfetch because it's cool
 brew install fastfetch
 ```
 
-### Neovim
+## Neovim
 
 ```bash
 # install neovim
@@ -113,19 +111,19 @@ rm -rf ~/.config/nvim/.git
 nvim
 ```
 
-### Tmux
+## Tmux
 
 ```bash
 brew install tmux
 ```
 
-### other CLI tools
+## other CLI tools
 
 ```bash
 brew install bat exa fd ripgrep fzf tree htop jq
 ```
 
-### Fonts - useful for neovim compatibility
+## Fonts - useful for neovim compatibility
 
 ```bash
 # fonts
